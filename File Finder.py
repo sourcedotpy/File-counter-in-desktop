@@ -1,10 +1,7 @@
 import os
 import psutil
 
-f_types = input(
-    "Add the file extensions to find and count (example: .txt .docx .pptx):"
-)
-
+f_types = input("Add the file extensions to find and count (example: .txt .docx .pptx):")
 f_types = f_types.split(" ")
 
 # Get partitions and periferals
@@ -26,4 +23,3 @@ for mount in partitions:
 
 print()
 print(f"Done scanning. Found {count} files")
-
