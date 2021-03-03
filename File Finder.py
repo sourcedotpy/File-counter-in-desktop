@@ -1,4 +1,4 @@
-// What about now Sharur
+# Hmmmmmmm
 
 import os
 
